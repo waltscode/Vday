@@ -1,0 +1,61 @@
+/* body   {
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,0.46262254901960786) 100%);
+display: flex;
+            justify-content: space-between;
+            align-items: center;
+}
+
+
+.protest-riot-regular {
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    color: 	#F0EAD6; 
+  }
+   */
+
+   body {
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,0.46262254901960786) 100%);
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full height of the viewport */
+    margin: 0; /* Remove default margin */
+}
+
+.protest-riot-regular {
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 75px;
+    color: 	#F0EAD6; 
+  }
+
+.carousel-container {
+    max-width: 900px; /* Adjust the maximum width as needed */
+}
+
+h1 {
+    text-align: center;
+}
+
+.carousel {
+    margin-top: 20px; /* Adjust the top margin as needed */
+}
+
+.carousel-inner img {
+    height: 760px !important;
+    width: 750px !important;
+    object-fit: cover; /* Optional: Maintain aspect ratio and cover the entire container */
+}
+
+.carousel-caption {
+    text-align: center;
+    background-color: rgba(200, 180, 220, 0.5); /* Adjust the values to get the desired purple hue and transparency */
+    padding: 3px; /* Add padding to the caption for better readability */
+}
