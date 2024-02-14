@@ -59,3 +59,12 @@ h1 {
     background-color: rgba(200, 180, 220, 0.5); /* Adjust the values to get the desired purple hue and transparency */
     padding: 3px; /* Add padding to the caption for better readability */
 }
+
+@media (max-width: 576px) {
+    .carousel-caption h5 {
+        font-size: 1.2rem;
+    }
+    .carousel-caption p {
+        font-size: 1rem;
+    }
+}
